@@ -11,6 +11,11 @@ elif scale == list(range(8, 0, -1)):
     print('descending')
 else:
     print('mixed')
+
+```
+
+``` python
+basket[i-1: j] = basket[i-1: j][::-1]
 ```
 
 ## 문제
