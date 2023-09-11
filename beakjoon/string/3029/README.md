@@ -6,7 +6,8 @@
 
 - 하루가 넘어가는 경우를 고려해야 한다.
 
-- f string을 사용하면 코드를 간결하게 작성할 수 있다.
+- [f-string](../../../python/f-string/README.md)을 사용하면 코드를 간결하게 작성할 수 있다.
+
 
 ```python
 wait_time_str = f"{wait_hours:02d}:{wait_minutes:02d}:{wait_seconds:02d}"
